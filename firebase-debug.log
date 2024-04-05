@@ -1,0 +1,37 @@
+[debug] [2024-04-04T18:28:55.902Z] ----------------------------------------------------------------------
+[debug] [2024-04-04T18:28:55.903Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-04T18:28:55.904Z] CLI Version:   13.6.1
+[debug] [2024-04-04T18:28:55.904Z] Platform:      win32
+[debug] [2024-04-04T18:28:55.904Z] Node Version:  v18.16.0
+[debug] [2024-04-04T18:28:55.908Z] Time:          Thu Apr 04 2024 23:58:55 GMT+0530 (India Standard Time)
+[debug] [2024-04-04T18:28:55.908Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-04T18:28:56.012Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-04-04T18:28:56.013Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-04-04T18:28:56.013Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-04-04T18:28:56.013Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T18:28:56.013Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-04-04T18:28:56.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-04T18:28:56.018Z] > authorizing via signed-in user (anujkesarwani31@gmail.com)
+[debug] [2024-04-04T18:29:00.504Z] java version "17.0.10" 2024-01-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.10+11-LTS-240)
+
+[debug] [2024-04-04T18:29:00.504Z] Java HotSpot(TM) 64-Bit Server VM (build 17.0.10+11-LTS-240, mixed mode, sharing)
+
+[debug] [2024-04-04T18:29:00.518Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, hosting, storage"}}
+[debug] [2024-04-04T18:29:00.530Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T18:29:00.530Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T18:29:00.530Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T18:29:00.530Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T18:29:00.530Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T18:29:00.530Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-04T18:29:00.530Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-04T18:29:00.536Z] [hub] writing locator at C:\Users\DELL\AppData\Local\Temp\hub-friendlychat-7907a.json
+[debug] [2024-04-04T18:29:00.545Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-7907a [none]
+[debug] [2024-04-04T18:29:01.591Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-7907a 200
+[debug] [2024-04-04T18:29:01.591Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-7907a {"projectId":"friendlychat-7907a","projectNumber":"30741334031","displayName":"FriendlyChat","name":"projects/friendlychat-7907a","resources":{"hostingSite":"friendlychat-7907a","storageBucket":"friendlychat-7907a.appspot.com","locationId":"us-east1"},"state":"ACTIVE","etag":"1_dc81c34d-c6e8-4985-a1a1-3d562db3329c"}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
